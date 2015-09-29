@@ -1,0 +1,70 @@
+<html>
+<head>
+	<title> CS08-InClass.htm </title>
+	<style type="text/css">
+	h1{
+		color:navy;
+		text-align: center;
+		font-family:'Lucinda Bright';
+			}
+	p{
+		margin:20px
+	}
+	form{
+		font-family:Arial;
+		background-color:silver; 
+		color: navy; 
+		font-weight:bold;
+		
+		margin:20px 50px 20px 50px
+	}
+	</style>
+</head>
+<body>
+		<h1> Web Forms - CS08-InClass</h1>
+		
+	<form method="post" action= "mailer.php">
+	<br>
+	<p> First Name:
+			<input type="text" name="fName" maxlength="100" size="20" value="Enter first name here"/> 
+			Last Name:
+				<input type="text" name="lName" maxlength="100" size="20" value="Enter last name here"/></p>
+				
+	<p>
+		Gender: 
+		Male <input type="radio" name="gender" value="male" /> 
+		Female <input type="radio" name="gender" value="female" checked="checked" /></p>
+
+			<p> My favorite Web Tech topics are
+				<br/>
+				<input type="checkbox" name="Q1" value="Basic HTML">Basic HTML <br>
+				<input type="checkbox" name="Q1" value="CSS">CSS <br>
+				<input type="checkbox" name="Q1" value="Tables">Tables <br>
+				<input type="checkbox" name="Q1" value="FORMS">FORMS <br>
+
+			<p>What grade do you expect to receive? 
+	<select name="Grade">
+		<option value="A">A</option>
+		<option value="A+">A+</option>
+		<option value="I'm only getting an A'">I'm only getting an A</option>
+	</select></p>
+<p> Please add any comments you have <br/>
+<textarea name="comments" rows="5" cols="29">Any further comments?</textarea> </br>
+						</p>
+			<p>
+		<button type="submit" value="Submit" name="SUBMIT FORM"/>
+	SUBMIT <img src="Images/mailbox.png"  height="30" alt="submit_button" />
+		<button type="submit" value="Submit" name="SUBMIT FORM"/>
+	SUBMIT <img src="Images/reset.png" height="30" alt="reset_button"/>
+		</p>
+			</form>
+			
+</button>
+
+</body>
+
+
+
+
+
+</html>
